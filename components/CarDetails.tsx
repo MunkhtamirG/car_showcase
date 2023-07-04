@@ -63,6 +63,7 @@ const CarDetails = ({ isOpen, closeModal, car }: CarDetailsProps) => {
                         alt="car model"
                         fill
                         priority
+                        sizes="20"
                         className="object-contain"
                       />
                     </div>
@@ -70,28 +71,31 @@ const CarDetails = ({ isOpen, closeModal, car }: CarDetailsProps) => {
                     <div className="flex gap-3">
                       <div className="flex-1 relative w-full h-24 bg-primary-blue-100 rounded-lg">
                         <Image
-                          src="/hero.png"
+                          src="/front.png"
                           alt="car model"
                           fill
                           priority
+                          sizes="20"
                           className="object-contain"
                         />
                       </div>
                       <div className="flex-1 relative w-full h-24 bg-primary-blue-100 rounded-lg">
                         <Image
-                          src="/hero.png"
+                          src="/side.png"
                           alt="car model"
                           fill
                           priority
+                          sizes="20"
                           className="object-contain"
                         />
                       </div>
                       <div className="flex-1 relative w-full h-24 bg-primary-blue-100 rounded-lg">
                         <Image
-                          src="/hero.png"
+                          src="/rear.png"
                           alt="car model"
                           fill
                           priority
+                          sizes="20"
                           className="object-contain"
                         />
                       </div>
